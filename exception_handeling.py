@@ -16,9 +16,10 @@ try:
     print(div)
 except:
     print("Zero Devision Error")
-
 else:
     print("Successfully executed")
-
+finally:
+    print("Always Executed")
+                                     
 
     
